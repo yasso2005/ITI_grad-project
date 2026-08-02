@@ -8,7 +8,10 @@ export default function Navbar() {
         <>
             <nav className="bg-[#F7F5EE] fixed w-full z-20 top-0 start-0 border-b border-[#DEDACB]">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <span className="self-center text-xl text-[#2A2620] font-semibold whitespace-nowrap">Bookverse</span>
+                    <div className="flex items-center gap-2">
+                        <img src="/BookIcon.svg" alt="Bookverse logo" className="w-7 h-7" />
+                        <span className="self-center text-xl text-[#2A2620] font-semibold whitespace-nowrap">Bookverse</span>
+                    </div>
                     <div className="flex items-center md:order-2">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
