@@ -16,7 +16,7 @@ function App() {
       children: [
         { index: true, element: <About /> },
         { path: 'Home', element: <Home /> },
-        { path: 'favourites', element: <Favourites /> },
+        { path: 'Favourites', element: <Favourites /> },
         { path: '*', element: <NotFound /> },
       ],
     },

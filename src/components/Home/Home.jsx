@@ -3,7 +3,7 @@ import FavouriteButton from "../FavouriteButton/FavouriteButton";
 import DeleteButton from "../DeleteButton/DeleteButton";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import useStore from "../store/store";
+import useStore from "../Store/Store";
 
 const coverImages = Object.values(
     import.meta.glob('../../assets/BookCover/*.{jpg,jpeg,png}', { eager: true, import: "default" })

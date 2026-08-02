@@ -1,4 +1,4 @@
-import useStore from "../store/store";
+import useStore from "../Store/Store";
 export default function FavouriteButton({ book }) {
     const favourites = useStore((state) => state.favourites);
     const toggleFavourite = useStore((state) => state.toggleFavourite);

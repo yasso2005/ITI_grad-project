@@ -1,4 +1,4 @@
-import useStore from "../store/store";
+import useStore from "../Store/Store";
 import FavouriteButton from "../FavouriteButton/FavouriteButton";
 
 export default function Favourites() {
